@@ -47,7 +47,7 @@ public class Main {
         int sum = sum_elems(nums);
 
         // Declare memo table
-        Boolean[][] dp = new Boolean[m + 1][sum + 1];
+        Boolean[][] dp = new Boolean[m + 1][sum / 2 + 1];
 
         // Check if sum of elements is even
         if(sum % 2 != 0) {
