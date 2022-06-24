@@ -63,7 +63,7 @@ public class Main {
         // Input nums array
         int[] nums = {1, 5, 11, 5};
 
-        // Compute if equation partition is possible
+        // Compute if equal sum partition is possible
         boolean can_part = can_partition(nums);
 
         // Print results
